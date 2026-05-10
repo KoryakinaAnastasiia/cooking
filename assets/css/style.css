@@ -252,8 +252,105 @@ img {
     margin-bottom: 2rem;
 }
 
-/* Swiper class */
+.home__data img {
+    position: absolute;
+    z-index: -1;
+}
 
+.home__slice-1{
+    width: 50px;
+    left: -2rem;
+    top: -2rem;
+}
+
+.home__slice-2{
+    width: 80px;
+    right: -2rem;
+    bottom: -2.5rem;
+    filter: blur(2px);
+}
+
+.home__balloons{
+    width: 80px;
+    top: -3.5rem;
+    right: 1rem;
+}
+
+.home__sticker-1{
+    width: 30px;
+    top: 2.5rem;
+    right: -.5rem;
+}
+
+.home__sticker-2{
+    width: 30px;
+    left: 1rem;
+    bottom: 2rem;
+}
+
+.home__images{
+    width: 340px;
+    height: 372px;
+    position: relative;
+    display: grid;
+    justify-self: center;
+}
+
+.home__images img{
+    position: absolute;
+}
+
+.home__swoper .home__cake{
+    position: initial;
+    width: 300px;
+    margin-inline: auto;
+}
+
+.home__blob{
+    width: 300px;
+    top: -1.5rem;
+    justify-self: center ;
+    z-index: -1;
+}
+
+.home__base{
+    width: 340px;
+    bottom: 0;
+    justify-self: center;
+    z-index: -1;
+}
+
+.home-leaf-1{
+    width: 40px;
+    bottom: 3rem;
+    right: 4.5rem;
+}
+
+.home-leaf-2{
+    width: 50px;
+    left: 0.5rem;
+    top: 2rem;
+}
+
+.home__sticker-3{
+    width: 30px;
+    left: 5rem;
+    bottom: 6.5rem;
+}
+
+.home__sticker-4{
+    width: 30px;
+    top: 6rem;
+    right: 1.25rem;
+}
+
+
+
+/* Swiper class */
+.home__swiper{
+    width: 100%;
+    height: 100%;
+}
 
 /*=============== BUTTON ===============*/
 .button{
@@ -262,7 +359,7 @@ img {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     padding: 1rem 2rem;
-    border-radius: 4 rem;
+    border-radius: 4rem;
     transition: background-color .4s, box-shadow .4s;
 }
 
