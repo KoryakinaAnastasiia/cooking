@@ -655,6 +655,28 @@ img {
         width: 75px;
         right: 5rem;
      }
+
+     .about__data,
+     .about__data .section__title{
+        text-align: initial;
+     }
+
+     .about__description{
+        margin-bottom: 4rem;
+     }
+
+     .about__sticker-1{
+        width: 40px;
+        left: initial;
+        top: 7rem;
+        right: 2rem;
+     }
+
+     .about__sticker-2{
+        width: 40px;
+        right: 11rem;
+        bottom: 2rem;
+     }
 }
 
 
