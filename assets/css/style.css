@@ -222,7 +222,9 @@ img {
 }
 
 /* Change header styles */
-
+.scroll-header{
+    box-shadow: 0 2px 16px hsla(350, 70%, 20%, .1);
+}
 
 /* Active link */
 
@@ -300,7 +302,7 @@ img {
     position: absolute;
 }
 
-.home__swoper .home__cake{
+.home__swiper .home__cake{
     position: initial;
     width: 300px;
     margin-inline: auto;
@@ -320,13 +322,13 @@ img {
     z-index: -1;
 }
 
-.home-leaf-1{
+.home__leaf-1{
     width: 40px;
     bottom: 3rem;
     right: 4.5rem;
 }
 
-.home-leaf-2{
+.home__leaf-2{
     width: 50px;
     left: 0.5rem;
     top: 2rem;
@@ -508,6 +510,10 @@ img {
         left: 8rem;
         bottom: 13rem;
     }
+     .home__sticker-4{
+        width: 40px;
+        top: 10rem;
+     }
 }
 
 
