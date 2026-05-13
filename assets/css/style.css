@@ -472,7 +472,72 @@ img {
 
 
 /*=============== PRODUCTS SECTION ===============*/
+.product__button{
+    background-color: var(--white-color);
+    color: var(--title-color);
+    padding: .5rem .75rem;
+    box-shadow: 0 4px 24px hsla(350, 70%, 20%, .1);
+    font-weight: 600;
+    font-size: var(--small-font-size);
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: background-color .4s, box-shadow .4s;
+}
 
+.product__button:hover {
+    background-color: var(--first-color);
+}
+
+.product__cards{
+    display: grid;
+    gap: 1.5rem;
+}
+
+.product__card {
+    position: relative;
+    background-color: var(--container-color);
+    padding: 14rem 1.5rem 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 8px 16px hsla(360, 70%, 20%, .1);
+    transition: transform .4s;
+}
+
+.product__images{
+    position: absolute;
+    top: -3.5rem;
+    left: -1rem;
+}
+
+.product__blob{
+    width: 260px;
+}
+
+.product__img{
+    position: absolute;
+    width: 190px;
+    top: 3.5rem;
+    right: 0;
+    left: 0;
+    margin-inline: auto;
+    filter: drop-shadow(0 8px 16px hsla(350, 70%, 8%, .2));
+    transition: transform .4s;
+}
+
+.product__data{
+    text-align: center;
+}
+
+.product__name{
+    font-size: var(--h1-font-size);
+    margin-bottom: .5rem;
+}
+
+.product__price{
+    font-size: var(--bigger-font-size);
+    font-weight: var(--font-bold);
+    color: var(--first-color);
+}
 
 /* Swiper class */
 
