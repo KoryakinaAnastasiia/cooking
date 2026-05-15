@@ -34,7 +34,7 @@ const swiperHome = new Swiper('.home__swiper', {
     effect: 'creative',
     creativeEffect: {
         prev: {
-
+            opacity: 0,
         },
         next: {
             translate: ['120%', 0, -500],
