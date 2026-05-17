@@ -176,7 +176,7 @@ img {
         top: 0;
         right: -120%;
         background-color: var(--body-color);
-        width: 80px;
+        width: 80%;
         height: 100%;
         box-shadow: -2px 0 16px hsla(350, 70%, 20%, .1);
         padding: 7rem 0 2rem 2rem;
@@ -553,12 +553,35 @@ img {
     display: grid;
     place-items: center;
     cursor: pointer;
+    transition: background-color .4s;
 }
 
+.product__buy:hover{
+    background-color: var(--first-color-alt);
+}
 
+.product__card:hover,
+.product__card:hover .product__img{
+    transform: translateY(-.5rem);
+}
 
 /* Swiper class */
+.product__swiper{
+    overflow: initial;
+}
 
+.product__tabs .swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    margin-bottom: 3rem;
+}
+
+.product__tabs .swiper-slide{
+    width: initial;
+    height: initial;
+}
 
 /*=============== NEW SECTION ===============*/
 
