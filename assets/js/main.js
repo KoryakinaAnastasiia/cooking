@@ -70,7 +70,14 @@ const swiperProducts = new Swiper('.product__content', {
 })
 
 /*=============== NEW SWIPER ===============*/
+const swiperNew = new Swiper('.new__swiper', {
+    loop: true,
 
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+})
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
