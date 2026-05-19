@@ -624,7 +624,51 @@ img {
 .new__cake{
     width: 220px;
     margin: auto;
+    transition: filter .4s;
 }
+
+.new__name{
+    text-align: center;
+    font-size: var(--h1-font-size);
+    padding-block: 1rem;
+    /* opacity: 0;
+    transition: opacity .4s; */
+}
+
+.new__leaf-1,
+.new__leaf-2,
+.new__leaf-3 {
+    position: absolute;
+}
+
+.new__leaf-1{
+    width: 50px;
+    top: 0;
+    right: 1.5rem;
+}
+
+.new__leaf-2{
+    width: 50px;
+    left: 2.5rem;
+    bottom: 6rem;
+    filter: blur(2px);
+}
+
+.new__leaf-3{
+    width: 80px;
+    top: -3rem;
+    left: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Swiper class */
 
