@@ -631,8 +631,8 @@ img {
     text-align: center;
     font-size: var(--h1-font-size);
     padding-block: 1rem;
-    /* opacity: 0;
-    transition: opacity .4s; */
+    opacity: 0;
+    transition: opacity .4s;
 }
 
 .new__leaf-1,
@@ -670,6 +670,14 @@ img {
 
 .new .swiper-slide-active .new__cake{
     filter: drop-shadow(0 8px 16px hsla(350, 70%, 8%, .2));
+}
+
+.new .swiper-slide-active .new__name{
+    opacity: 1;
+}
+
+.new .swiper-navigation-icon{
+    display: none;
 }
 
 /*=============== CONTACT SECTION ===============*/
