@@ -680,6 +680,34 @@ img {
     display: none;
 }
 
+.new :is(.swiper-button-prev, .swiper-button-next) {
+    top: initial;
+    left: initial;
+    bottom: 0;
+    margin: initial;
+    width: 40px;
+    height: 40px;
+    background-color: var(--white-color);
+    border-radius: .75rem;
+    color: var(--title-color);
+    font-size: 1.5rem;
+    transition: background-color .4s;
+}
+
+.new :is(.swiper-button-prev:hover, .swiper-button-next:hover){
+    background-color: var(--first-color);
+}
+
+.new .swiper-button-prev{
+    left: calc(50% - 3rem);
+}
+
+.new .swiper-button-next{
+    right: calc(50% - 3rem);
+}
+
+
+
 /*=============== CONTACT SECTION ===============*/
 
 
