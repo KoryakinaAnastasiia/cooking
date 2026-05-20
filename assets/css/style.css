@@ -709,7 +709,47 @@ img {
 
 
 /*=============== CONTACT SECTION ===============*/
+.contact{
+    background-color: var(--second-color);
+}
 
+.contact__container{
+    row-gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.contact__map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contact__map{
+    width: 320px;
+    height: 280px;
+    justify-self: center;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.contact__content .section__title{
+    color: var(--white-color);
+}
+
+.contact__data{
+    position: relative;
+    text-align: center;
+    display: grid;
+    row-gap: 2rem;
+}
+
+
+
+.contact__address,
+.contact__address :is(span, a){
+    display: block;
+    color: var(--white-color);
+    font-style: normal;
+}
 
 /*=============== FOOTER ===============*/
 
