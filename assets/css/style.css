@@ -227,7 +227,9 @@ img {
 }
 
 /* Active link */
-
+.active-link{
+    color: var(--first-color);
+}
 
 /*=============== HOME SECTION ===============*/
 .home__container{
@@ -893,7 +895,9 @@ img {
 }
 
 /* Show Scroll Up */
-
+.show-scroll{
+    bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices <> */
@@ -1290,7 +1294,16 @@ img {
         left: 10rem;
         bottom: -4rem;
      }
+
+     .scrollup{
+        right: 3rem;
+     }
     }
 
 
 /* For 2K resolutions <> */
+@media (width >= 2048px) {
+    body{
+        zoom: 120%;
+    }
+}
