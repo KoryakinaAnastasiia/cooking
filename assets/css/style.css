@@ -823,6 +823,11 @@ img {
     transform: translateY(-.25rem);
 }
 
+.footer__copy{
+    text-align: center;
+    margin-top: 1.5;
+}
+
 
 
 /*=============== SCROLL BAR ===============*/
